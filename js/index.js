@@ -34,7 +34,7 @@ let students = [
 let male = 0
 let female = 0
 
-students.filter(baby => {
+students.forEach(baby => {
     if(baby.gender === 'male'){
         male++
     } else if(baby.gender === 'female') {
